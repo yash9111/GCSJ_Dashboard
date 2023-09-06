@@ -3,9 +3,9 @@
     scroll-behavior: smooth;
 }
 
-body::-webkit-scrollbar{
+/* body::-webkit-scrollbar{
     display: none;
-}
+} */
 
 .d-inline-block{
     margin-left: 60px;
