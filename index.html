@@ -64,7 +64,7 @@
                   <th scope="col"><b>Name</b></th>
                   <th scope="col"><b>Redemption Status</b></th>
                   <th scope="col"><b>Course Completed</b></th>
-<!--                   <th scope="col"><b>Skill Badges Completed</b></th> -->
+                  <th scope="col"><b>Skill Badges Completed</b></th>
                   <th scope="col"><b>GenAI Completed</b></th>
                   <th scope="col"><b>Total Completion</b></th>
                 </tr>
@@ -103,6 +103,7 @@
                         <td><a href="${d["Google Cloud Skills Boost Profile URL"]}" target="_blank" style="color:#000000;">${d["Student Name"]}</a></td>
                         <td>${d["Redemption Status"] === "Yes"?"✅":"⚠️"}</td>
                         <td>${d["# of Courses Completed"]}</td>
+                        <td>${d["# of Skill Badges Completed"]}</td>
                         <td>${d["# of GenAI Game Completed"]}</td>
                         <td>${d["Total Completions of both Pathways"]}</td>
                    </tr>
